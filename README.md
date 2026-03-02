@@ -1,7 +1,7 @@
 # Delprof2 v1.6.0
 
 Download latest version from Releases:       
-https://github.com/delprofx/Delprof2/releases/tag/v1.6.0
+https://github.com/profdel2/Delprof2/releases/tag/v1.6.0
 
 ## Introduction
 
@@ -11,4 +11,4 @@ Built for advanced operators, Delprof2 supports precise targeting and automation
 
 Delprof2 is commonly used to reclaim storage, reduce profile bloat, and keep “golden” images clean between sessions. It also complements roaming profiles and folder redirection scenarios where local caches should be periodically reset to eliminate corruption and configuration drift.
 
-Operationally, the tool is designed to handle edge cases such as missing profile paths, stale registry references, and permissions constraints, while minimizing risk: it can detect and skip currently loaded profiles and, when necessary, schedule cleanup actions to complete after reboot. For recurring tasks, it provides reliable exit codes and well-structured output that can be easily interpreted by monitoring and job management systems.
+Operationally, the tool is designed to handle edge cases such as missing profile paths, stale registry references, and permissions constraints, while minimizing risk: it can detect and skip currently loaded profiles and, when necessary, schedule cleanup actions to complete after reboot. For repetitive operations, it delivers predictable exit codes and organized output, making it straightforward for monitoring tools and job-control systems to process and analyze.
